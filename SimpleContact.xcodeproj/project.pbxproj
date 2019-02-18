@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A13BF5882B12F7A534E783D /* Pods_SimpleContact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCC6AF6A0BCE3CD5C3CBF52 /* Pods_SimpleContact.framework */; };
+		EE175CD220E27A390075B63D /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE175CD120E27A390075B63D /* EditTableViewController.swift */; };
+		EE175CD420E27A4D0075B63D /* EditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE175CD320E27A4D0075B63D /* EditTableViewCell.swift */; };
+		EE19E76720D2662700AF8D38 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19E76620D2662700AF8D38 /* RegisterViewController.swift */; };
+		EE19E76920D2939D00AF8D38 /* ContactPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19E76820D2939D00AF8D38 /* ContactPeople.swift */; };
+		EE19E76D20D2A64500AF8D38 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19E76C20D2A64500AF8D38 /* UserInfoViewController.swift */; };
+		EE19E76F20D2A8D000AF8D38 /* FunctionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19E76E20D2A8D000AF8D38 /* FunctionListTableViewCell.swift */; };
+		EE19E77120D2A8E200AF8D38 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19E77020D2A8E200AF8D38 /* ContactListTableViewCell.swift */; };
+		EE4FA24420DD0A4900E9202B /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FA24320DD0A4900E9202B /* AddContactViewController.swift */; };
+		EE4FA24620DD0E2100E9202B /* AddContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FA24520DD0E2100E9202B /* AddContactTableViewCell.swift */; };
 		EE93AF8620D144880005E52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93AF8520D144880005E52B /* AppDelegate.swift */; };
 		EE93AF8820D144880005E52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93AF8720D144880005E52B /* ViewController.swift */; };
 		EE93AF8B20D144880005E52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE93AF8920D144880005E52B /* Main.storyboard */; };
 		EE93AF8E20D144880005E52B /* SimpleContact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE93AF8C20D144880005E52B /* SimpleContact.xcdatamodeld */; };
 		EE93AF9020D144890005E52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE93AF8F20D144890005E52B /* Assets.xcassets */; };
 		EE93AF9320D144890005E52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE93AF9120D144890005E52B /* LaunchScreen.storyboard */; };
+		EE93AF9B20D145AD0005E52B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EE93AF9A20D145AD0005E52B /* Podfile */; };
+		EE93AFA220D15BAE0005E52B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93AFA120D15BAE0005E52B /* PageViewController.swift */; };
+		EE93AFA420D15BCF0005E52B /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93AFA320D15BCF0005E52B /* GuideViewController.swift */; };
+		EEA0D46C20D3DD780079FE76 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0D46B20D3DD780079FE76 /* DetailTableViewCell.swift */; };
+		EEA0D46E20D3DD8F0079FE76 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0D46D20D3DD8F0079FE76 /* DetailViewController.swift */; };
+		EEA0D47220D78C670079FE76 /* CallPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0D47120D78C670079FE76 /* CallPageViewController.swift */; };
+		EEB1DF2C20E08E7B007E1D9D /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1DF2B20E08E7B007E1D9D /* ContactListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230E2E0CD8A347CBACDA9A42 /* Pods-SimpleContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleContact/Pods-SimpleContact.release.xcconfig"; sourceTree = "<group>"; };
+		2892A8348FED760232D2AE8E /* Pods-SimpleContact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleContact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleContact/Pods-SimpleContact.debug.xcconfig"; sourceTree = "<group>"; };
+		7DCC6AF6A0BCE3CD5C3CBF52 /* Pods_SimpleContact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleContact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE175CD120E27A390075B63D /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		EE175CD320E27A4D0075B63D /* EditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewCell.swift; sourceTree = "<group>"; };
+		EE19E76620D2662700AF8D38 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EE19E76820D2939D00AF8D38 /* ContactPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPeople.swift; sourceTree = "<group>"; };
+		EE19E76C20D2A64500AF8D38 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		EE19E76E20D2A8D000AF8D38 /* FunctionListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionListTableViewCell.swift; sourceTree = "<group>"; };
+		EE19E77020D2A8E200AF8D38 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		EE4FA24320DD0A4900E9202B /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		EE4FA24520DD0E2100E9202B /* AddContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactTableViewCell.swift; sourceTree = "<group>"; };
 		EE93AF8220D144880005E52B /* SimpleContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE93AF8520D144880005E52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE93AF8720D144880005E52B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +53,14 @@
 		EE93AF8F20D144890005E52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE93AF9220D144890005E52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE93AF9420D144890005E52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE93AF9A20D145AD0005E52B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE93AFA120D15BAE0005E52B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		EE93AFA320D15BCF0005E52B /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		EEA0D46B20D3DD780079FE76 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		EEA0D46D20D3DD8F0079FE76 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EEA0D47120D78C670079FE76 /* CallPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallPageViewController.swift; sourceTree = "<group>"; };
+		EEB1DF2B20E08E7B007E1D9D /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		EEB1DF2D20E12BAB007E1D9D /* SimpleContact-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleContact-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +68,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A13BF5882B12F7A534E783D /* Pods_SimpleContact.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		239B4EB5518E3957C95475BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCC6AF6A0BCE3CD5C3CBF52 /* Pods_SimpleContact.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46E21E8AAA722E2458D1D52B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2892A8348FED760232D2AE8E /* Pods-SimpleContact.debug.xcconfig */,
+				230E2E0CD8A347CBACDA9A42 /* Pods-SimpleContact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE93AF7920D144880005E52B = {
 			isa = PBXGroup;
 			children = (
+				EE93AF9A20D145AD0005E52B /* Podfile */,
+				EEA0D47020D78C540079FE76 /* CallPage */,
+				EEA0D46A20D3DD650079FE76 /* ContactDetail */,
+				EE93AFA020D15B7B0005E52B /* UserPage */,
+				EE93AF9F20D15B740005E52B /* GuidePage */,
+				EE93AF9E20D15B6C0005E52B /* ContactListPage */,
+				EE93AF9C20D15B3D0005E52B /* Classes */,
 				EE93AF8420D144880005E52B /* SimpleContact */,
 				EE93AF8320D144880005E52B /* Products */,
+				46E21E8AAA722E2458D1D52B /* Pods */,
+				239B4EB5518E3957C95475BF /* Frameworks */,
+				EEB1DF2D20E12BAB007E1D9D /* SimpleContact-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +123,7 @@
 			children = (
 				EE93AF8520D144880005E52B /* AppDelegate.swift */,
 				EE93AF8720D144880005E52B /* ViewController.swift */,
+				EE19E76620D2662700AF8D38 /* RegisterViewController.swift */,
 				EE93AF8920D144880005E52B /* Main.storyboard */,
 				EE93AF8F20D144890005E52B /* Assets.xcassets */,
 				EE93AF9120D144890005E52B /* LaunchScreen.storyboard */,
@@ -67,6 +133,62 @@
 			path = SimpleContact;
 			sourceTree = "<group>";
 		};
+		EE93AF9C20D15B3D0005E52B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE19E76820D2939D00AF8D38 /* ContactPeople.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE93AF9E20D15B6C0005E52B /* ContactListPage */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1DF2B20E08E7B007E1D9D /* ContactListTableViewController.swift */,
+				EE4FA24320DD0A4900E9202B /* AddContactViewController.swift */,
+				EE4FA24520DD0E2100E9202B /* AddContactTableViewCell.swift */,
+				EE19E77020D2A8E200AF8D38 /* ContactListTableViewCell.swift */,
+			);
+			path = ContactListPage;
+			sourceTree = "<group>";
+		};
+		EE93AF9F20D15B740005E52B /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				EE93AFA120D15BAE0005E52B /* PageViewController.swift */,
+				EE93AFA320D15BCF0005E52B /* GuideViewController.swift */,
+			);
+			path = GuidePage;
+			sourceTree = "<group>";
+		};
+		EE93AFA020D15B7B0005E52B /* UserPage */ = {
+			isa = PBXGroup;
+			children = (
+				EE19E76C20D2A64500AF8D38 /* UserInfoViewController.swift */,
+				EE19E76E20D2A8D000AF8D38 /* FunctionListTableViewCell.swift */,
+			);
+			path = UserPage;
+			sourceTree = "<group>";
+		};
+		EEA0D46A20D3DD650079FE76 /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0D46B20D3DD780079FE76 /* DetailTableViewCell.swift */,
+				EE175CD120E27A390075B63D /* EditTableViewController.swift */,
+				EE175CD320E27A4D0075B63D /* EditTableViewCell.swift */,
+				EEA0D46D20D3DD8F0079FE76 /* DetailViewController.swift */,
+			);
+			path = ContactDetail;
+			sourceTree = "<group>";
+		};
+		EEA0D47020D78C540079FE76 /* CallPage */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0D47120D78C670079FE76 /* CallPageViewController.swift */,
+			);
+			path = CallPage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE93AF9720D144890005E52B /* Build configuration list for PBXNativeTarget "SimpleContact" */;
 			buildPhases = (
+				09B1C0F15F89AE8CD8FFCBED /* [CP] Check Pods Manifest.lock */,
 				EE93AF7E20D144880005E52B /* Sources */,
 				EE93AF7F20D144880005E52B /* Frameworks */,
 				EE93AF8020D144880005E52B /* Resources */,
+				8E8074317B6CD18EB2E0BB77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +223,7 @@
 				TargetAttributes = {
 					EE93AF8120D144880005E52B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -127,20 +252,81 @@
 			files = (
 				EE93AF9320D144890005E52B /* LaunchScreen.storyboard in Resources */,
 				EE93AF9020D144890005E52B /* Assets.xcassets in Resources */,
+				EE93AF9B20D145AD0005E52B /* Podfile in Resources */,
 				EE93AF8B20D144880005E52B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09B1C0F15F89AE8CD8FFCBED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleContact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E8074317B6CD18EB2E0BB77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleContact/Pods-SimpleContact-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LeanCloud/LeanCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleContact/Pods-SimpleContact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE93AF7E20D144880005E52B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4FA24620DD0E2100E9202B /* AddContactTableViewCell.swift in Sources */,
+				EE4FA24420DD0A4900E9202B /* AddContactViewController.swift in Sources */,
+				EEA0D46E20D3DD8F0079FE76 /* DetailViewController.swift in Sources */,
+				EE175CD220E27A390075B63D /* EditTableViewController.swift in Sources */,
 				EE93AF8E20D144880005E52B /* SimpleContact.xcdatamodeld in Sources */,
+				EE19E76F20D2A8D000AF8D38 /* FunctionListTableViewCell.swift in Sources */,
 				EE93AF8820D144880005E52B /* ViewController.swift in Sources */,
 				EE93AF8620D144880005E52B /* AppDelegate.swift in Sources */,
+				EE19E76720D2662700AF8D38 /* RegisterViewController.swift in Sources */,
+				EE19E76D20D2A64500AF8D38 /* UserInfoViewController.swift in Sources */,
+				EEA0D46C20D3DD780079FE76 /* DetailTableViewCell.swift in Sources */,
+				EEA0D47220D78C670079FE76 /* CallPageViewController.swift in Sources */,
+				EE19E77120D2A8E200AF8D38 /* ContactListTableViewCell.swift in Sources */,
+				EE93AFA420D15BCF0005E52B /* GuideViewController.swift in Sources */,
+				EE19E76920D2939D00AF8D38 /* ContactPeople.swift in Sources */,
+				EE175CD420E27A4D0075B63D /* EditTableViewCell.swift in Sources */,
+				EEB1DF2C20E08E7B007E1D9D /* ContactListTableViewController.swift in Sources */,
+				EE93AFA220D15BAE0005E52B /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +468,10 @@
 		};
 		EE93AF9820D144890005E52B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2892A8348FED760232D2AE8E /* Pods-SimpleContact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TJKYE5XV9;
 				INFOPLIST_FILE = SimpleContact/Info.plist;
@@ -293,6 +481,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = muziruo.SimpleContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleContact-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +490,10 @@
 		};
 		EE93AF9920D144890005E52B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230E2E0CD8A347CBACDA9A42 /* Pods-SimpleContact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TJKYE5XV9;
 				INFOPLIST_FILE = SimpleContact/Info.plist;
@@ -311,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = muziruo.SimpleContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleContact-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

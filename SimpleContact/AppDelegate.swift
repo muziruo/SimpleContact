@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import LeanCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //初始化leancloud SDK
+        LeanCloud.initialize(applicationID: "gVEnwANYIOmeM242eQ8qd5kg-gzGzoHsz", applicationKey: "G7z0nO9AAOKSXNFhTt12C3Ut")
+        //AVOSCloud.setApplicationId("gVEnwANYIOmeM242eQ8qd5kg-gzGzoHsz", clientKey: "G7z0nO9AAOKSXNFhTt12C3Ut")
+        
+        //底端分栏颜色
+        UITabBar.appearance().tintColor = UIColor.black
+        
+        //顶部导航栏颜色
+        //UINavigationBar.appearance().tintColor = UIColor.white
+        //UINavigationBar.appearance().backgroundColor = UIColor.black
+        
         return true
     }
 

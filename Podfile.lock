@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.7.2)
+  - IQKeyboardManager (6.0.3)
+  - LeanCloud (11.0.1):
+    - LeanCloud/Storage (= 11.0.1)
+  - LeanCloud/Storage (11.0.1):
+    - Alamofire (~> 4.7)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - LeanCloud
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManager
+    - LeanCloud
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  LeanCloud: f9776746a4cd62bdb441f2768017a91c9516d219
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 5ce70af24ea94581ea92f91a440f238cad401010
+
+COCOAPODS: 1.5.2
